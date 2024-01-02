@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(194, 210, 210);
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+
+.navbar{
+    background-color: rgb(234, 234, 240);
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+}
+
+.navbar .left {
+    padding: 3px 30px;
+    padding-top: 13px;
+    padding-left: 100px;
+
+}
+
+.navbar li a {
+    padding: 3px 30px;
+    text-decoration: none;
+}
+.navbar ul {
+    list-style: none;
+    overflow: auto;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 13px 23px;
+}
